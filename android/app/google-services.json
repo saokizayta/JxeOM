@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "322576966227",
+    "project_id": "jxeom-c1e96",
+    "storage_bucket": "jxeom-c1e96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322576966227:android:a6ce08e3141e3beb6a5ca6",
+        "android_client_info": {
+          "package_name": "com.delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2trStN9jtJ44xLYk3efCvzsiRE6EBuzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

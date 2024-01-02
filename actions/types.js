@@ -1,0 +1,29 @@
+export const GET_ERRORS = 'GET_ERRORS';
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const GET_ORDERS_COUNT = 'GET_ORDERS_COUNT';
+export const GET_ORDERS = 'GET_ORDERS';
+export const ORDERS_LOADING = 'ORDERS_LOADING';
+export const GET_USER_INFO = 'GET_USER_INFO';
+export const SET_AUTH_NOTE = 'SET_AUTH_NOTE';
+export const SET_TYPE = 'SET_TYPE';
+export const AFTER_ACCEPT_ORDER = 'AFTER_ACCEPT_ORDER';
+export const NEW_ORDER = 'NEW_ORDER';
+export const DELETE_ORDER = 'DELETE_ORDER';
+export const SET_ROUTE = 'SET_ROUTE';
+export const NEW_ORDER_DETAIL = 'NEW_ORDER_DETAIL';
+export const NEW_ORDER_COUNT = 'NEW_ORDER_COUNT';
+export const UPDATE_ORDER = 'UPDATE_ORDER';
+export const GET_ORDER_UPDATE = 'GET_ORDER_UPDATE';
+
+export const SET_NOTIFICATION = 'SET_NOTIFICATION';
+export const GET_NOTIFICATION = 'GET_NOTIFICATION';
+export const READ_NOTIFICATION = 'READ_NOTIFICATION';
+export const SET_NOTIFICATIONS = 'SET_NOTIFICATIONS';
+
+export const AFTER_UPDATE_PRICE = 'AFTER_UPDATE_PRICE';
+
+export const SET_SERVER_ERROR = 'SET_SERVER_ERROR';
+export const SET_SHOW_UP = 'SET_SHOW_UP';
+export const SET_STATE = 'SET_STATE';
+
+export const SET_ERROR = 'SET_ERROR';
