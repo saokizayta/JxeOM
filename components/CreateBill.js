@@ -7,7 +7,7 @@ import styles from '../asset/css/CreateBill';
 const CreateBill = () => {
     return (
       <WebView
-        source={{ uri: 'https://goixecauke.com/createdbill.html' }}
+        source={{ uri: 'https://goixecauke.com/createdbill.php' }}
         style={{ flex: 1 }}
       />
     );
