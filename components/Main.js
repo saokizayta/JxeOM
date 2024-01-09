@@ -8,11 +8,11 @@ import { connect } from 'react-redux';
 
 import styles from '../asset/css/Main';
 
-import { WebSocketProvider, useWebSocket } from 'react-native-websocket';
+
 
 const Main = ({ getOrdersCount, setType, setRoute, orders, navigation }) => {
   const isFocused = useIsFocused();
-  const { getWebSocket } = useWebSocket('wss://goixecauke.com:443/createdbill.php'); // Thay thế địa chỉ máy chủ WebSocket thực tế của bạn và cổng
+  
 
   useEffect(() => {
     if (isFocused) {
@@ -21,20 +21,7 @@ const Main = ({ getOrdersCount, setType, setRoute, orders, navigation }) => {
     }
   }, [isFocused]);
 
-  useEffect(() => {
-    const socket = getWebSocket();
-    if (socket) {
-      // Nghe sự kiện từ máy chủ
-      socket.onmessage = (event) => {
-        const data = JSON.parse(event.data);
-        console.log('Message from server:', data);
-
-        // Thực hiện các hành động cần thiết khi có thông điệp từ máy chủ
-        // Hiển thị thông báo push trong ứng dụng
-        // (Bạn có thể sử dụng một thư viện thông báo push như react-native-push-notification)
-      };
-    }
-  }, [getWebSocket]);
+  
 
   const navigate = (type) => {
     if (orders.loading)
